@@ -3,6 +3,10 @@
     height: 210px;
     border: 1pt solid grey;
     border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
 }
 /*1.stroka*/
 #eesti tr:nth-child(1){
@@ -66,5 +70,106 @@
     background-color: yellow;
 }
 /*3.stroka*/
-#mali tr:nth-child(3){
+#mali tr:nth-child(3) {
     background-color: red;
+}
+
+
+#norra{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+}
+/*1.stroka 1 jachejka*/
+#norra tr:nth-child(1) td:nth-child(1),
+#norra tr:nth-child(5) td:nth-child(1)
+{
+    background-color: red;
+    width: 20%;
+}
+/*w*/
+#norra tr:nth-child(1) td:nth-child(2),
+#norra tr:nth-child(1) td:nth-child(4),
+#norra tr:nth-child(5) td:nth-child(2),
+#norra tr:nth-child(5) td:nth-child(4)
+{
+    background-color: white;
+    width: 5%;
+}
+
+/*2.stroka*/
+#norra tr:nth-child(3)
+{
+    background-color: blue;
+    height: 20%;
+}
+#norra tr:nth-child(2) td:nth-child(3),
+#norra tr:nth-child(4) td:nth-child(3)
+{
+    background-color: blue;
+    height: 10%;
+}
+
+/*3.stroka*/
+#norra tr:nth-child(1) td:nth-child(3),
+#norra tr:nth-child(5) td:nth-child(3)
+{
+    background-color: blue;
+    width: 15%;
+}
+
+#norra tr:nth-child(1) td:nth-child(5),
+#norra tr:nth-child(5) td:nth-child(5)
+{
+    background-color: red;
+
+}
+
+
+#greece{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+}
+
+#greece tr:nth-child(7),
+#greece tr:nth-child(9)
+{
+    background-color: blue;
+}
+#greece tr:nth-child(6),
+#greece tr:nth-child(8)
+{
+    background-color: white;
+}
+
+#greece tr:nth-child(1) td:nth-child(4),
+#greece tr:nth-child(3) td:nth-child(4),
+#greece tr:nth-child(5) td:nth-child(4)
+
+{
+    background-color: blue;
+}
+
+#greece tr:nth-child(3) td:nth-child(1),
+#greece tr:nth-child(3) td:nth-child(2),
+#greece tr:nth-child(3) td:nth-child(3)
+{
+    background-color: white;
+    width: 8%;
+}
+
+#greece tr:nth-child(1) td:nth-child(1),
+#greece tr:nth-child(2) td:nth-child(1),
+#greece tr:nth-child(1) td:nth-child(3),
+#greece tr:nth-child(2) td:nth-child(3),
+#greece tr:nth-child(4) td:nth-child(3),
+#greece tr:nth-child(5) td:nth-child(3),
+#greece tr:nth-child(4) td:nth-child(1),
+#greece tr:nth-child(5) td:nth-child(1)
+{
+    background-color: blue;
+    width: 15%;
+}
