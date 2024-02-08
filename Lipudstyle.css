@@ -1,0 +1,52 @@
+#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+}
+/*1.stroka*/
+#eesti tr:nth-child(1){
+    background-color: blue;
+}
+/*2.stroka*/
+#eesti tr:nth-child(2){
+    background-color: black;
+}
+/*3.stroka*/
+#eesti tr:nth-child(3){
+    background-color: white;
+}
+
+#rootsi{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+}
+/*1.stroka 1 jachejka*/
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1)
+{
+    background-color: blue;
+    width: 28%;
+}
+/*2.stroka*/
+#rootsi tr:nth-child(2)
+{
+    background-color: gold;
+    height: 20%;
+}
+/*3.stroka*/
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2)
+{
+    background-color: gold;
+    width: 15%;
+}
+
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3)
+{
+    background-color: blue;
+
+}
